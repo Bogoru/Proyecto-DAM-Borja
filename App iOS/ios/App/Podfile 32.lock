@@ -1,0 +1,58 @@
+PODS:
+  - Capacitor (4.8.0):
+    - CapacitorCordova
+  - CapacitorApp (4.1.1):
+    - Capacitor
+  - CapacitorCommunityBluetoothLe (2.2.3):
+    - Capacitor
+  - CapacitorCordova (4.8.0)
+  - CapacitorHaptics (4.1.0):
+    - Capacitor
+  - CapacitorKeyboard (5.0.1):
+    - Capacitor
+  - CapacitorStatusBar (4.1.1):
+    - Capacitor
+  - CordovaPlugins (4.8.0):
+    - CapacitorCordova
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorApp (from `../../node_modules/@capacitor/app`)"
+  - "CapacitorCommunityBluetoothLe (from `../../node_modules/@capacitor-community/bluetooth-le`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
+  - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
+  - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
+  - CordovaPlugins (from `../capacitor-cordova-ios-plugins`)
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorApp:
+    :path: "../../node_modules/@capacitor/app"
+  CapacitorCommunityBluetoothLe:
+    :path: "../../node_modules/@capacitor-community/bluetooth-le"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorHaptics:
+    :path: "../../node_modules/@capacitor/haptics"
+  CapacitorKeyboard:
+    :path: "../../node_modules/@capacitor/keyboard"
+  CapacitorStatusBar:
+    :path: "../../node_modules/@capacitor/status-bar"
+  CordovaPlugins:
+    :path: "../capacitor-cordova-ios-plugins"
+
+SPEC CHECKSUMS:
+  Capacitor: 6002aadd64492438e5242325025045235dcb7e84
+  CapacitorApp: acd42fe8561fe751ad5b5f459aa85e6acd7bee24
+  CapacitorCommunityBluetoothLe: 7de4f21022a05b15195abfb002872884d00715fc
+  CapacitorCordova: c6249dcb2cf04dd835c0e99df1df4b9c8ad997e2
+  CapacitorHaptics: 213b3a1f3efd6dbf6e6b76a1b2bb0399cf43b213
+  CapacitorKeyboard: 5e1667b7b70e23b147f9fc91bafa458be41cba77
+  CapacitorStatusBar: 65933e554bb5d65b361deaa936a93616086a2608
+  CordovaPlugins: bb3872fb51eec428ab516e21f39dd892a06ca1bb
+
+PODFILE CHECKSUM: 19323e19c45e82af3befa8e5b3dc53aa4075d9a0
+
+COCOAPODS: 1.12.1

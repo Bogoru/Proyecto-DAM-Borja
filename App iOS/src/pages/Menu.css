@@ -1,0 +1,79 @@
+.contenido{
+    --background: none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .contenido::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../imagenes/fondo1.svg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .contenedor-imagenes2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 35%;
+}
+
+.img{
+    margin-right: 3%;
+}
+
+.img2{
+    display: block;
+    margin: 0 auto;
+    width: 20%;
+    margin-top: 3%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+
+  .contenido{
+    --background: none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .contenido::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../imagenes/fondo1.svg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .contenedor-imagenes2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 10%;
+}
+
+.img{
+    margin-right: 3%;
+}
+
+.img2{
+    display: block;
+    margin: 0 auto;
+    width: 15%;
+    margin-top: 5%;
+}
+
+}

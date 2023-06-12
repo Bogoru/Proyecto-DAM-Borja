@@ -1,0 +1,15 @@
+ESTRUCTURA DE LA CARPETA: 
+
+-Carpeta APP Android: Esta carpeta contiene un zip donde se encuentra todo el código de la aplicación para android. 
+
+-Carpeta APP iOS: Esta carpeta contiene un zip donde se encuentra todo el código de la aplicación para iOS.
+
+-Carpeta Documentación: Esta carpeta contiene la documentación del proyecto que en este caso en la memoria, en formato word y formato pdf. 
+
+-Carpeta Prog Micro ESP32: Esta carpeta contiene todo en código de programación del micro controlador ESP32 y de su respectiva placa base.
+
+
+LA APLICACIÓN SE PUEDE DESCARGA EN: 
+
+App Store (Tienda aplicaciones apple): Con el nombre Bioclimática
+Play Store (Tienda de aplicaciones android): Con el nombre Proyecto DAM Borja
