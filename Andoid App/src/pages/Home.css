@@ -1,0 +1,281 @@
+.Logo{
+    width: 90%;
+}
+
+.contenedor{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+
+}
+
+.Lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: url('../imagenes/fondo.svg') no-repeat center center fixed;
+
+  }
+
+.Item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: transparent;
+    margin-left: 5%;
+    background-color: #fff;
+
+  }
+
+  .ButtonDispositivos {
+    position: relative;
+    background-color: #fff;
+    border: none;
+    font-size: 28px;
+    color: #BCBDBA;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    margin-left: 5%;
+  }
+  
+  .ButtonDispositivos:after {
+    content: "";
+    background: #fff;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+    margin-left: 5%;
+
+  }
+  
+  .ButtonDispositivos:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+    margin-left: 5%;
+    background-color: #fff;
+
+  }
+
+  .ion-toolbar:last-of-type {
+    --border-width: 0 0 0.0px;
+  }
+  
+  svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .svgToldo{
+    position: absolute;
+    top: 64%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+  }
+
+
+  .fondo{
+    --background: none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+  }
+    
+  .fondo::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../imagenes/fondo.svg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .svgBuscar{
+    display: block;
+    margin: 0 auto;
+    width: 55%;
+    margin-top: 25%;
+  }
+
+  .input{
+    display: block;
+    margin: 0 auto;
+    margin-top: 7%;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .buttonGuardar{
+    text-align: center;
+    --background: #BCBDBA; 
+  }
+
+
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+
+  .Logo{
+  
+      width: 90%;
+  
+  }
+  
+  .contenedor{
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+  
+  }
+  
+  .Lista {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+      width: 100%;
+      background: url('../imagenes/fondo.svg') no-repeat center center fixed;
+  
+    }
+  
+  .Item{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      background: transparent;
+      margin-left: 5%;
+      background-color: #fff;
+  
+    }
+  
+    .ButtonDispositivos {
+      position: relative;
+      background-color: #fff;
+      border: none;
+      font-size: 28px;
+      color: #BCBDBA;
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      transition-duration: 0.4s;
+      text-decoration: none;
+      overflow: hidden;
+      cursor: pointer;
+      display: block;
+      margin: 0 auto;
+      margin-left: 5%;
+    }
+    
+    .ButtonDispositivos:after {
+      content: "";
+      background: #fff;
+      display: block;
+      position: absolute;
+      padding-top: 300%;
+      padding-left: 350%;
+      margin-left: -20px !important;
+      margin-top: -120%;
+      opacity: 0;
+      transition: all 0.8s;
+      margin-left: 5%;
+  
+    }
+    
+    .ButtonDispositivos:active:after {
+      padding: 0;
+      margin: 0;
+      opacity: 1;
+      transition: 0s;
+      margin-left: 5%;
+      background-color: #fff;
+  
+    }
+  
+    .ion-toolbar:last-of-type {
+      --border-width: 0 0 0.0px;
+    }
+    
+    svg {
+      width: 100%;
+      height: auto;
+    }
+  
+    .svgToldo{
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 50%;
+    }
+  
+  
+    .fondo{
+      --background: none;
+      background-color: transparent;
+      position: relative;
+      overflow: hidden;
+    }
+      
+    .fondo::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('../imagenes/fondo.svg') no-repeat center center fixed;
+      background-size: cover;
+      z-index: -1;
+    }
+  
+    .svgBuscar{
+      display: block;
+      margin: 0 auto;
+      width: 55%;
+      margin-top: 5%;
+    }
+  
+    .input{
+      display: block;
+      margin: 0 auto;
+      margin-top: 7%;
+      text-align: center;
+      font-size: 20px;
+    }
+  
+    .buttonGuardar{
+      text-align: center;
+      --background: #BCBDBA; 
+    }
+  
+
+  }

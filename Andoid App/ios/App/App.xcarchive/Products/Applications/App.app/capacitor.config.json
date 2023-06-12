@@ -1,0 +1,6 @@
+{
+	"appId": "ionic.app.base",
+	"appName": "ionic-app-base",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

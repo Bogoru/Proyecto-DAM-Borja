@@ -1,0 +1,97 @@
+  .fondo2{
+    --background: none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+  }
+    
+  .fondo2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../imagenes/fondo.svg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+  }
+  .header-ios ion-toolbar:last-of-type {
+    --border-width: 0 0 0.0px;
+  }
+
+  .svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .svg1 {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+
+  .header-ios ion-toolbar:last-of-type {
+    --border-width: 0 0 0.0px;
+  }
+
+
+.imgAtras{
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  margin-top: 2%;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1366px) {
+
+  .fondo2{
+    --background: none;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+  }
+    
+  .fondo2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../imagenes/fondo.svg') no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
+  }
+  .header-ios ion-toolbar:last-of-type {
+    --border-width: 0 0 0.0px;
+  }
+
+
+  .svg {
+    width: 100%;
+    height: auto;
+  }
+
+  .svg1 {
+    width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+
+  .header-ios ion-toolbar:last-of-type {
+    --border-width: 0 0 0.0px;
+  }
+
+.imgAtras{
+  display: block;
+  margin: 0 auto;
+  width: 10%;
+  margin-top: 2%;
+}
+
+}

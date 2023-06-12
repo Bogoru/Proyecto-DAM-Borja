@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Proyecto DAM Borja</string>
+    <string name="title_activity_main">Proyecto DAM Borja</string>
+    <string name="package_name">ionic.app.base</string>
+    <string name="custom_url_scheme">ionic.app.base</string>
+</resources>
